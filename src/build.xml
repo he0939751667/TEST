@@ -1,0 +1,10 @@
+<project name="test" default="init" basedir=".">
+    
+    <target name="init">
+       
+       <copy encoding="UTF-8" includeemptydirs="false" todir="U:\batch">
+           <fileset dir="D:\EmakerProject\test\src">
+                      </fileset>
+       </copy>
+    </target>
+</project>
